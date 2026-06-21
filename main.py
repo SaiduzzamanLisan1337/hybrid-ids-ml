@@ -310,7 +310,7 @@ def main() -> None:
                 benign_idx       = benign_idx,
             )
         except Exception as exc:
-            print(f"  ⚠  Experiment failed: {exc}")
+            print(f"  Experiment failed: {exc}")
             import traceback; traceback.print_exc()
 
     _banner("Pipeline Complete!")
